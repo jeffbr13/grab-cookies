@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "yt-dlp", specifier = ">=2026.2.21" }]
+requires-dist = [{ name = "yt-dlp", specifier = ">=2025.1.1" }]
 
 [[package]]
 name = "yt-dlp"

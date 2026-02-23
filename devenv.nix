@@ -57,6 +57,7 @@
   # https://devenv.sh/git-hooks/
   git-hooks.hooks = {
     alejandra.enable = true;
+    flake-checker.enable = true;
     ruff.enable = true;
     ruff-format.enable = true;
     shellcheck.enable = true;

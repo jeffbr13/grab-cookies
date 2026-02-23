@@ -11,7 +11,8 @@
   # https://devenv.sh/packages/
   packages = with pkgs; [
     git
-    gallery-dl # to use the cookies.txt output
+    gallery-dl # to use the cookies.txt output\
+    mdsh
   ];
 
   # https://devenv.sh/languages/
@@ -56,6 +57,7 @@
 
   # https://devenv.sh/git-hooks/
   git-hooks.hooks = {
+    mdsh.enable = true;
     alejandra.enable = true;
     flake-checker.enable = true;
     ruff.enable = true;

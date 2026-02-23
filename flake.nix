@@ -34,7 +34,7 @@
           meta = with pkgs.lib; {
             description = "Extract browser cookies for a given website into a Netscape-format cookies.txt file";
             homepage = "https://github.com/jeffbr13/grab-cookies";
-            license = licenses.mit; # Assuming MIT, adjust if needed
+            license = licenses.agpl3Plus;
             maintainers = [];
           };
         };

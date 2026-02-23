@@ -1,6 +1,6 @@
 """
 Extract browser cookies for a given website into a Netscape-format cookies.txt file
-which gallery-dl can use to authenticate to a website.
+which e.g. gallery-dl or other programs can use to authenticate to a website.
 
 Uses yt-dlp's cookies functionality to extract browser cookies.
 

@@ -1,7 +1,7 @@
 grab-cookies
 ============
 
-Extract browser cookies into a Netscape-format cookies.txt file.
+Extract browser cookies into a Netscape-format `cookies.txt` file.
 Prints out the path of a temporary file containing the cookies.
 
 This CLI is a wrapper around [yt-dlp](https://github.com/yt-dlp/yt-dlp)'s
@@ -47,6 +47,10 @@ INFO: Cookies for patreon.com extracted from safari to: /var/folders/pl/b80kgl_j
 Usage: gallery-dl --cookies '/var/folders/pl/b80kgl_j0v5fq1ds49srk0d00000gn/T/tmpndg72mwi.txt' <URL>
 ```
 
+## gallery-dl
+`grab-cookies` can be used in conjunction with e.g. [gallery-dl](https://github.com/mikf/gallery-dl) to download/archive content from websites which rely on browser authentication (e.g. Patreon).
+
+This is an alternative to using [`gallery-dl`'s built-in `--cookies-from-browser` flag or `cookies` configuration option](https://github.com/mikf/gallery-dl/blob/master/README.rst#cookies).
 
 ## Development
 
